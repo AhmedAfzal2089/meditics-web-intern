@@ -2,12 +2,12 @@ import { Phone, Clock, Mail } from "lucide-react";
 
 const TopBar = () => {
   return (
-    <div className="flex text-white text-sm font-medium">
+    <div className="flex flex-col md:flex-row text-white text-sm font-medium">
       {/* Left Section */}
-      <div className="bg-blue-600 flex items-center px-6 py-2 gap-6 relative z-10 w-[40%]">
+      <div className="bg-blue-600 flex flex-wrap md:flex-nowrap items-center px-4 md:px-6 py-2 gap-4 md:gap-6 relative z-10 w-full md:w-[40%]">
         {/* Phone */}
         <div className="flex items-center gap-2">
-          <div className=" p-1.5 rounded-full text-blue-900">
+          <div className="p-1.5 rounded-full text-blue-900">
             <Phone className="text-white" size={14} />
           </div>
           <span className="font-semibold">Help Line: +208-6666-0112</span>
@@ -15,7 +15,7 @@ const TopBar = () => {
 
         {/* Clock */}
         <div className="flex items-center gap-2">
-          <div className=" p-1.5 rounded-full text-blue-900">
+          <div className="p-1.5 rounded-full text-blue-900">
             <Clock className="text-white" size={14} />
           </div>
           <span className="font-semibold">
@@ -23,12 +23,12 @@ const TopBar = () => {
           </span>
         </div>
 
-        {/* Diagonal Divider */}
-        <div className="absolute right-[-20px] top-0 bottom-0 w-10 bg-blue-600 transform skew-x-12 z-0" />
+        {/* Diagonal Divider - only show on md+ */}
+        <div className="hidden md:block absolute right-[-20px] top-0 bottom-0 w-10 bg-blue-600 transform skew-x-12 z-0" />
       </div>
 
       {/* Right Section */}
-      <div className="bg-[#021c35] flex items-center px-6 py-2 flex-1 justify-end z-10">
+      <div className="bg-[#021c35] flex items-center px-4 md:px-6 py-2 w-full md:flex-1 justify-center md:justify-end z-10">
         <div className="flex items-center gap-2">
           <div className="bg-lime-300/60 p-1.5 rounded-full text-blue-900">
             <Mail size={14} />

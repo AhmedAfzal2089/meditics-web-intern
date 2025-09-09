@@ -31,7 +31,7 @@ import { Input } from "@/components/ui/input";
 export function Navbar() {
   return (
     <div className="bg-[#021c35]">
-      <header className="w-[90%] px-6 py-4 bg-white shadow-md flex justify-between items-center m-auto h-25">
+      <header className="w-[90%] px-6 py-4 bg-white shadow-md flex justify-between items-center m-auto h-25 rounded-2xl">
         <div className="text-xl font-bold">
           <Logo />
         </div>
