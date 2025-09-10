@@ -1,13 +1,9 @@
-import HeroSection from "./pages/home/HeroSection";
-import { Navbar } from "./pages/home/Navbar";
-import TopBar from "./pages/home/TopBar";
+import HomePage from "./pages/home/HomePage";
 
 const App = () => {
   return (
     <div>
-      <TopBar />
-      <Navbar />
-      <HeroSection />
+      <HomePage />
     </div>
   );
 };

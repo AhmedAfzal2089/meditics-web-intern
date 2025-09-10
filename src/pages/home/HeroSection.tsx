@@ -1,5 +1,5 @@
 import { Heart, Facebook, Twitter, Youtube, Instagram } from "lucide-react";
-import image from "../assets/banner-img.png";
+import image from "../../assets/banner-img.png";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
