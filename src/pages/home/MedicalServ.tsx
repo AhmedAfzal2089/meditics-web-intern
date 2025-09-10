@@ -2,7 +2,7 @@ import { Brain, Heart, NotepadText, Users } from "lucide-react";
 
 const MedicalServ = () => {
   return (
-    <div className="bg-gray-100 py-10 mt-20">
+    <div className="bg-gray-100 py-35 mt-20">
       {/* Section Header */}
       <div className="flex flex-col justify-center items-center gap-4 px-4 text-center mb-12">
         <div className="border-2 border-blue-500 flex gap-2 rounded-2xl p-2 w-fit mx-auto">

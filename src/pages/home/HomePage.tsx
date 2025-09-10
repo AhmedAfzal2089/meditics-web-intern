@@ -1,3 +1,4 @@
+import HealthProblems from "./HealthProblems";
 import HeroSection from "./HeroSection";
 import MedicalServ from "./MedicalServ";
 import MyJourneyMed from "./MyJourneyMed";
@@ -12,6 +13,7 @@ const HomePage = () => {
       <HeroSection />
       <MyJourneyMed />
       <MedicalServ />
+      <HealthProblems />
     </div>
   );
 };
