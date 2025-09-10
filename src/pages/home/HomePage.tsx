@@ -1,6 +1,7 @@
 import BlogHome from "./BlogHome";
 import ClientsFeedback from "./ClientsFeedback";
 import DoctorOnline from "./DoctorOnline";
+import Footer from "./Footer";
 import HealthProblems from "./HealthProblems";
 import HeroSection from "./HeroSection";
 import MedicalServ from "./MedicalServ";
@@ -22,6 +23,7 @@ const HomePage = () => {
       <ClientsFeedback />
       <DoctorOnline />
       <BlogHome />
+      <Footer />
     </div>
   );
 };
