@@ -1,3 +1,4 @@
+import BlogHome from "./BlogHome";
 import ClientsFeedback from "./ClientsFeedback";
 import DoctorOnline from "./DoctorOnline";
 import HealthProblems from "./HealthProblems";
@@ -20,6 +21,7 @@ const HomePage = () => {
       <Qualification />
       <ClientsFeedback />
       <DoctorOnline />
+      <BlogHome />
     </div>
   );
 };

@@ -62,7 +62,7 @@ const ClientsFeedback: React.FC = () => {
   };
 
   return (
-    <div className="bg-gray-100 px-6 py-10 md:px-20">
+    <div className="bg-gray-100 px-6 py-40 md:px-20">
       <div className="mb-8">
         <div className="inline-flex items-center gap-2 border border-blue-500 text-blue-500 rounded-full px-3 py-1 font-semibold text-sm mb-2">
           <svg
