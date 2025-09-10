@@ -3,6 +3,7 @@ import HeroSection from "./HeroSection";
 import MedicalServ from "./MedicalServ";
 import MyJourneyMed from "./MyJourneyMed";
 import { Navbar } from "./Navbar";
+import Qualification from "./Qualification";
 import TopBar from "./TopBar";
 
 const HomePage = () => {
@@ -14,6 +15,7 @@ const HomePage = () => {
       <MyJourneyMed />
       <MedicalServ />
       <HealthProblems />
+      <Qualification />
     </div>
   );
 };
