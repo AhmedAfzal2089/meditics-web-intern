@@ -1,4 +1,5 @@
 import ClientsFeedback from "./ClientsFeedback";
+import DoctorOnline from "./DoctorOnline";
 import HealthProblems from "./HealthProblems";
 import HeroSection from "./HeroSection";
 import MedicalServ from "./MedicalServ";
@@ -18,6 +19,7 @@ const HomePage = () => {
       <HealthProblems />
       <Qualification />
       <ClientsFeedback />
+      <DoctorOnline />
     </div>
   );
 };
