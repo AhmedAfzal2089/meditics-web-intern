@@ -4,6 +4,7 @@ import About from "./pages/about/About";
 import Services from "./pages/services/Services";
 import ServiceDetail from "./pages/services/ServiceDetail";
 import BlogMain from "./pages/blog/BlogMain";
+import ContactMain from "./contact/ContactMain";
 
 export const router = createBrowserRouter([
   {
@@ -27,8 +28,8 @@ export const router = createBrowserRouter([
     element: <BlogMain />,
   },
   {
-    path: "/blog",
-    element: <About />,
+    path: "/contact",
+    element: <ContactMain />,
   },
   {
     path: "/contact",

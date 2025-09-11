@@ -67,7 +67,7 @@ export function Navbar() {
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-               <Link to='/about' className="font-semibold">
+               <Link to='/contact' className="font-semibold">
                   CONTACT
                 </Link>
               </NavigationMenuItem>
