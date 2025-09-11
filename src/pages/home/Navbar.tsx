@@ -27,6 +27,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
+import { Link } from "react-router-dom";
 
 export function Navbar() {
   return (
@@ -41,34 +42,34 @@ export function Navbar() {
           <NavigationMenu>
             <NavigationMenuList className="flex gap-6">
               <NavigationMenuItem>
-                <a href="#home" className="font-semibold">
+                <Link to="/" className="font-semibold">
                   HOME
-                </a>
+                </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <a href="#services" className="font-semibold">
+                <Link to='/about' className="font-semibold">
                   ABOUT
-                </a>
+                </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <a href="#about" className="font-semibold">
+                <Link to='/about' className="font-semibold">
                   SERVICES
-                </a>
+                </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <a href="#contact" className="font-semibold">
-                  TEAMS
-                </a>
+                <Link to='/about' className="font-semibold">
+                  PAGES
+                </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <a href="#contact" className="font-semibold">
+                <Link to='/about' className="font-semibold">
                   BLOG
-                </a>
+                </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <a href="#contact" className="font-semibold">
+               <Link to='/about' className="font-semibold">
                   CONTACT
-                </a>
+                </Link>
               </NavigationMenuItem>
 
               <Dialog>
