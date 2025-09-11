@@ -47,27 +47,27 @@ export function Navbar() {
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Link to='/about' className="font-semibold">
+                <Link to="/about" className="font-semibold">
                   ABOUT
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Link to='/services' className="font-semibold">
+                <Link to="/services" className="font-semibold">
                   SERVICES
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Link to='/teams' className="font-semibold">
+                <Link to="/teams" className="font-semibold">
                   TEAMS
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Link to='/blog' className="font-semibold">
+                <Link to="/blog" className="font-semibold">
                   BLOG
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-               <Link to='/contact' className="font-semibold">
+                <Link to="/contact" className="font-semibold">
                   CONTACT
                 </Link>
               </NavigationMenuItem>
@@ -158,12 +158,12 @@ export function Navbar() {
             </SheetTrigger>
             <SheetContent>
               <nav className="flex flex-col gap-4 mx-20 p-4 ">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#home">Teams</a>
-                <a href="#home">Blog</a>
-                <a href="#contact">Contact</a>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/services">Services</Link>
+                <Link to="/teams">Teams</Link>
+                <Link to="/blog">Blog</Link>
+                <Link to="/contact">Contact</Link>
                 <Dialog>
                   <DialogTrigger>
                     <Search className="rounded-md" />
