@@ -6,7 +6,12 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 
-const BreadCrumb = () => {
+interface BreadCrumbProps {
+  title: string;
+  page?: string;
+}
+
+const BreadCrumb = ({ title, page }: BreadCrumbProps) => {
   return (
     <section className="relative w-full h-[220px] bg-gradient-to-r from-[#1a3080] to-[#021c35] flex flex-col justify-center items-center text-white px-5 lg:px-0 overflow-hidden">
       {/* Background Icons */}
@@ -18,7 +23,7 @@ const BreadCrumb = () => {
       </div>
 
       {/* Title */}
-      <h1 className="text-4xl font-bold z-10">About Us</h1>
+      <h1 className="text-4xl font-bold z-10">{title}</h1>
 
       {/* Breadcrumb */}
       <Breadcrumb className="text-sm mt-2 z-10">
@@ -33,7 +38,7 @@ const BreadCrumb = () => {
           </BreadcrumbSeparator>
           <BreadcrumbItem>
             <BreadcrumbLink href="/about" className="text-white font-semibold">
-              About Us
+              {page}
             </BreadcrumbLink>
           </BreadcrumbItem>
         </BreadcrumbList>

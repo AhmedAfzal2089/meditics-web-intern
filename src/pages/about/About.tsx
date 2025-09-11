@@ -12,7 +12,7 @@ const About = () => {
     <div>
       <TopBar />
       <Navbar />
-      <BreadCrumb />
+      <BreadCrumb title="About Us" page="About Us" />
       <AboutUs />
       <WhyChooseUs />
       <PayteintSays />
