@@ -57,8 +57,8 @@ export function Navbar() {
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Link to='/about' className="font-semibold">
-                  PAGES
+                <Link to='/teams' className="font-semibold">
+                  TEAMS
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>

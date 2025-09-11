@@ -5,6 +5,8 @@ import Services from "./pages/services/Services";
 import ServiceDetail from "./pages/services/ServiceDetail";
 import BlogMain from "./pages/blog/BlogMain";
 import ContactMain from "./contact/ContactMain";
+import MainTeam from "./team/MainTeam";
+import TeamExplain from "./team/TeamExplain";
 
 export const router = createBrowserRouter([
   {
@@ -32,7 +34,11 @@ export const router = createBrowserRouter([
     element: <ContactMain />,
   },
   {
-    path: "/contact",
-    element: <About />,
+    path: "/teams",
+    element: <MainTeam />,
+  },
+  {
+    path: "/teams/:id",
+    element: <TeamExplain />,
   },
 ]);
