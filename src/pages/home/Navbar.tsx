@@ -62,7 +62,7 @@ export function Navbar() {
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Link to='/about' className="font-semibold">
+                <Link to='/blog' className="font-semibold">
                   BLOG
                 </Link>
               </NavigationMenuItem>
