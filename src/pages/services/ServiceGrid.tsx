@@ -62,7 +62,7 @@ const services = [
 
 const ServicesGrid = () => {
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-36 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
@@ -85,7 +85,7 @@ const ServicesGrid = () => {
                   </div>
                 )}
                 <div className="absolute top-3 right-3">
-                  <div className="bg-blue-600 hover:bg-blue-700 text-white p-2 rounded-md">
+                  <div className="bg-blue-950 hover:bg-blue-700 text-white p-2 rounded-md">
                     <ArrowUpRight size={18} />
                   </div>
                 </div>
