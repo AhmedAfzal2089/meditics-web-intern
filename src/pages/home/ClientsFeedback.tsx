@@ -1,7 +1,7 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React, { useState } from "react";
-import Slider, { Settings } from "react-slick";
+import Slider, { type Settings } from "react-slick";
 
 type Feedback = {
   id: number;
